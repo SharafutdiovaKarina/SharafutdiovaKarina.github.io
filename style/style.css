@@ -1,0 +1,38 @@
+/* общие стили для всего документа */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 42px;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    position: fixed;
+    width: 100%; 
+    height: 54px;
+    background-color: #719af8;
+    color: #000000;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    padding-left: 123px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 224px;
+    height: 44px;
+    background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 5px; 
+}

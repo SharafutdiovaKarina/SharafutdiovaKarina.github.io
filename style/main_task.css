@@ -1,0 +1,46 @@
+/* Стили для области с задачами */
+main {
+    position: relative;
+    width: 100%;
+    height: 256px;
+    top: 52px;
+}
+
+section {
+    position: absolute;
+    width: 350px; 
+    height: 100%; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* отступы столбцов */
+.backlog {
+    left: 53px;
+}
+
+.in-progress {
+    left: 321px;
+}
+
+.done {
+    left: 667px;
+}
+
+.trash {
+    left: 936px;
+}
+
+h2 {
+    margin: 0 0 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+main li {
+    font-size: 24px;
+}
