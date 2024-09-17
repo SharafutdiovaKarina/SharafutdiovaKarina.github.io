@@ -2,12 +2,15 @@
 main {
     position: relative;
     width: 100%;
+    padding-inline: 108px;
     height: 256px;
     top: 52px;
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
 }
 
 section {
-    position: absolute;
     width: 350px; 
     height: 100%; 
     padding: 10px;
@@ -15,7 +18,7 @@ section {
 }
 
 /* отступы столбцов */
-.backlog {
+/* .backlog {
     left: 53px;
 }
 
@@ -29,18 +32,19 @@ section {
 
 .trash {
     left: 936px;
-}
+} */
 
-h2 {
+.task-list__title {
     margin: 0 0 10px;
 }
 
-ul {
+.task-list__body {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-main li {
+.task-item {
     font-size: 24px;
+    color: #000000;
 }
